@@ -1,0 +1,3 @@
+﻿  CleanUknownChar.cpp
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(135,26): warning C4018: '<': signed/unsigned mismatch
+  CleanUknownChar.vcxproj -> C:\Users\john.wyke\source\repos\CleanUknownChar\Debug\CleanUknownChar.exe

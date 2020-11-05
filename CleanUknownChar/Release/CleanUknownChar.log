@@ -1,0 +1,46 @@
+﻿  CleanUknownChar.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(11,21): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\string(24): message : see declaration of 'std'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(11,31): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(19,5): error C2143: syntax error: missing ';' before '<'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(30,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(30,9): error C2065: 'directory_entry': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(30,25): error C2146: syntax error: missing ';' before identifier 'dir'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(30,25): error C3861: 'dir': identifier not found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(31,9): error C2065: 'dir': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(54,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(54,9): error C2065: 'directory_entry': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(54,25): error C2146: syntax error: missing ';' before identifier 'dir'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(54,25): error C3861: 'dir': identifier not found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(59,9): error C2065: 'dir': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,52): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,28): error C3861: 'directory_iterator': identifier not found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,46): error C2672: 'begin': no matching overloaded function found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1961): message : see declaration of 'std::begin'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): message : With the following template arguments:
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): message : '_Container=unknown-type'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,46): error C2672: 'end': no matching overloaded function found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\xutility(1971): message : see declaration of 'std::end'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): message : With the following template arguments:
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): message : '_Container=unknown-type'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.26.28801\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,54): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(63,52): error C2100: illegal indirection
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(70,8): error C2065: 'dir': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(100,29): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(100,13): error C2065: 'directory_entry': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(100,29): error C2146: syntax error: missing ';' before identifier 'dir'
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(100,29): error C3861: 'dir': identifier not found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(102,13): error C2065: 'dir': undeclared identifier
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(102,12): error C2653: 'fs': is not a class or namespace name
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(102,39): error C3861: 'exists': identifier not found
+C:\Users\john.wyke\source\repos\CleanUknownChar\CleanUknownChar\CleanUknownChar.cpp(135,25): warning C4018: '<': signed/unsigned mismatch
